@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container{
+  text-align: left;
+  margin: auto;
+  width: 100%;
+  padding-top: 50px;
+  .todoapp {
+    max-width: 400px;
+    margin: 20px auto;
+    .mat-form-field {
+      width: 100%;
+    }
+    .mat-list .mat-list-item {
+      list-style: none;
+      padding: 0 0 0 0;
+      .toggle {
+        padding-right: 10px;
+      }
+      .checked {
+        text-decoration: line-through;
+        color: rgb(194, 194, 194);
+      }
+      .destroy:hover{
+        color: rgba(0,0,0,.87);
+      }
+    }
+    .mat-card-footer {
+      text-align: center;
+      padding-bottom: 10px
+    }
+  }
+}
